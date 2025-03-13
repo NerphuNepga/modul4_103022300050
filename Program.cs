@@ -8,9 +8,17 @@ public class Program
 {
     public static void Main()
     {
+        /*
         KodeProduk kodeProduk = new KodeProduk();
         string produkElec = Console.ReadLine();
         string kodProduk = kodeProduk.getKodeProduk(produkElec);
         Console.WriteLine(kodProduk);
+        */
+
+        FanLaptop fanLaptop = new FanLaptop();
+        fanLaptop.Balanced();
+        fanLaptop.Performance();
+        fanLaptop.Quiet();
+        fanLaptop.Turbo();
     }
 }
